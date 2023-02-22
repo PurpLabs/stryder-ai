@@ -1,0 +1,23 @@
+{
+  "name": "stryder-ai-discord-bot",
+  "version": "1.0.0",
+  "description": "🤖 Say hello to Stryder - the AI chatbot that keeps your privacy protected and delivers the latest info from the web.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaytonTDM/stryder-discord-bot.git"
+  },
+  "author": "ClaytonTDM",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/ClaytonTDM/stryder-discord-bot/issues"
+  },
+  "homepage": "https://clickette.net/stryder",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  }
+}
