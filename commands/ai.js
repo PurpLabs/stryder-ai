@@ -15,6 +15,7 @@ module.exports = {
             subcommand
                 .setName('reset')
                 .setDescription('Resets all conversations')),
+
     async execute(interaction) {
         if (interaction.options.getSubcommand() === 'start') {
             const filter = m => !m.author.bot && !m.content.startsWith('> ');
