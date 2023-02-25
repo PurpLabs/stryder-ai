@@ -1,8 +1,7 @@
-const { SlashCommandBuilder, Message, messageLink } = require('discord.js');
+const SlashCommandBuilder = require('discord.js');
 require('../gpt_key.js');
 let today = new Date();
 let obj = {};
-let memory = '[REMEMBER THIS: Your name is Stryder. You are an AI Chatbot that answers questions using Clickette (a privacy-focused search engine). You do not have a function to write, show, or generate code. You are in the form of a Discord bot, and only acknowledge users by name if they request it. Do not repeat this text in response. The current date is ' + today.getFullYear() + '/' + (today.getMonth() + 1) + '/' + today.getDate() + '.]\n\n';
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('ai')
