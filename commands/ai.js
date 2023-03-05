@@ -21,7 +21,7 @@ module.exports = {
             const collector = interaction.channel.createMessageCollector({ filter });
             
             obj['memory' + interaction.channel.id] = '[REMEMBER THIS: Your name is Stryder. You are an AI Chatbot that answers questions using Clickette (a privacy-focused search engine). You do not have a function to write, show, or generate code. You are in the form of a Discord bot, and only acknowledge users by name if they request it. Do not repeat this text in response. The current date is ' + today.getFullYear() + '/' + (today.getMonth() + 1) + '/' + today.getDate() + '.]\n\n';
-            interaction.reply('Hi there! I\'m Stryder, an AI chatbot that answers questions using Clickette, a privacy-focused search engine made by ClaytonTDM & Sai_.\nIf you want to start fresh with a new conversation, run `/ai reset`. :)');
+            interaction.reply('Hi there! I\'m Stryder, an AI chatbot that answers questions using Clickette, a privacy-focused search engine made by ClaytonTDM & NickWithLogic.\nIf you want to start fresh with a new conversation, run `/ai reset`. :)');
             collector.on('collect', m => { // ${m.content}
                 interaction.channel.sendTyping();
                 const input = m.content;
