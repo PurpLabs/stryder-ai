@@ -13,7 +13,7 @@ for (const file of commandFiles) {
 }
 
 client.once(Events.ClientReady, () => {
-    client.user.setActivity('/ai start', { type: ActivityType.Listening });
+    client.user.setActivity('to the waves', { type: ActivityType.Listening });
     console.log('Ready!');
 });
 
